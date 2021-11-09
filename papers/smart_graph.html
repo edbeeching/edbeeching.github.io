@@ -1,0 +1,312 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- ======================================================================= -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<style type="text/css">
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+
+  body {
+    font-family: "Titillium Web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 20px;
+  }
+
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+
+  img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+
+  a:link,
+  a:visited {
+    color: #1367a7;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big {
+    /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+      0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The top layer shadow */
+      5px 5px 0 0px #fff,
+      /* The second layer */
+      5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The second layer shadow */
+      10px 10px 0 0px #fff,
+      /* The third layer */
+      10px 10px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The third layer shadow */
+      15px 15px 0 0px #fff,
+      /* The fourth layer */
+      15px 15px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The fourth layer shadow */
+      20px 20px 0 0px #fff,
+      /* The fifth layer */
+      20px 20px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The fifth layer shadow */
+      25px 25px 0 0px #fff,
+      /* The fifth layer */
+      25px 25px 1px 1px rgba(0, 0, 0, 0.35);
+    /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+
+  .layered-paper {
+    /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+      0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The top layer shadow */
+      5px 5px 0 0px #fff,
+      /* The second layer */
+      5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The second layer shadow */
+      10px 10px 0 0px #fff,
+      /* The third layer */
+      10px 10px 1px 1px rgba(0, 0, 0, 0.35);
+    /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  #authors td {
+    padding-bottom: 5px;
+    padding-top: 30px;
+  }
+</style>
+<!-- ======================================================================= -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114291442-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114291442-6');
+</script> -->
+
+
+<script type="text/javascript" src="resources/hidebib.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+  rel='stylesheet' type='text/css'>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" type="image/png" href="../img/favicon.ico">
+  <title>Graph augmented Deep Reinforcement Learning in the GameRLand3D environment
+  </title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+
+<body>
+  <br>
+  <center><span style="font-size:44px;font-weight:bold;">Graph augmented Deep Reinforcement Learning in the GameRLand3D environment
+
+    </span></center><br />
+  <table align=center width=1100px>
+    <tr>
+      <td align=center width=250px>
+        <center><span style="font-size:22px"><a href="https://edbeeching.github.io//" target="_blank">Edward
+              Beeching</a></span></center>
+      </td>
+
+      <td align=center width=250px>
+        <center><span style="font-size:22px"><a href="https://scholar.google.com/citations?user=HczjRaEAAAAJ&hl=en" target="_blank">Maxim Peter</a></span></center>
+      </td>
+
+      <td align=center width=250px>
+        <center><span style="font-size:22px"><a href="https://philippemarcotte.github.io/" target="_blank">Philippe Marcotte</a></span></center>
+      </td>
+
+      <td align=center width=250px>
+        <center><span style="font-size:22px"><a href="http://perso.citi-lab.fr/jdibangoy/#/"
+              target="_blank">Jilles Debangoye</a></span></center>
+      </td>
+
+
+      <tr />
+    <tr>
+      <td align=center width=250px>
+        <center><span style="font-size:20px"><a href="https://team.inria.fr/chroma/en/">CITI, INRIA CHROMA, INSA Lyon</a> </span></center>
+      </td>
+      <td align=center width=250px>
+        <center><span style="font-size:20px"><a href="https://montreal.ubisoft.com/">Ubisoft LaForge, Montreal</a></span></center>
+      </td>
+      <td align=center width=250px>
+        <center><span style="font-size:20px"><a href="https://montreal.ubisoft.com/">Ubisoft LaForge, Montreal</a></span></center>
+      </td>
+      <td align=center width=250px>
+        <center><span style="font-size:20px"><a href="https://team.inria.fr/chroma/en/">CITI, INRIA CHROMA, INSA Lyon</a></span></center>
+        </center>
+      </td>
+      <tr />
+  </table>
+  <br>
+  <table align=center width=1000px>
+    <tr>
+      <td align=center width=250px>
+        <center><span style="font-size:22px"><a href="http://perso.citi-lab.fr/osimonin/" target="_blank">Olivier Simonin</a></span></center>
+      </td>
+
+      <td align=center width=250px>
+        <center><span style="font-size:22px"><a href="https://scholar.google.ca/citations?user=4C5wrXIAAAAJ&hl=en" target="_blank">Joshua Romoff</a></span></center>
+      </td>
+
+
+      <td align=center width=250px>
+        <center><span style="font-size:22px"><a href="https://perso.liris.cnrs.fr/christian.wolf/"
+              target="_blank">Christian Wolf</a></span></center>
+      </td>
+
+
+      <tr />
+    <tr>
+      <td align=center width=250px>
+        <center><span style="font-size:20px"><a href="https://team.inria.fr/chroma/en/">CITI, INRIA CHROMA, INSA Lyon</a> </span></center>
+      </td>
+      <td align=center width=250px>
+        <center><span style="font-size:20px"><a href="https://montreal.ubisoft.com/">Ubisoft LaForge, Montreal</a></span></center>
+      </td>
+ 
+      <td align=center width=250px>
+        <center><span style="font-size:20px"><a href="https://liris.cnrs.fr/">LIRIS, CNRS, INSA Lyon</a> </span>
+        </center>
+      </td>
+      <tr />
+  </table>
+  <hr>
+  <br>
+  <center>
+    <h1>
+      Abstract</h1>
+  </center>
+  <div style="width:800px; margin:0 auto; text-align:justify">
+    We introduce a set of hybrid graph and Deep Reinforcement Learning approaches for planning and navigation in challenging 3D video games. 
+    We also present "GameRLand3D", a new benchmark and soon to be released environment built with the Unity engine able to generate complex procedural 3D maps for navigation tasks. 
+    The environment features maps with disconnected regions reachable by agents using special actions. We quantify the limitations of end-to-end Deep RL approaches in vast environments and explore hybrid techniques that combine a low level policy and a graph based high level classical planner. In addition to providing human-interpretable paths, the approach improves the generalization performance of an end-to-end approach in unseen maps. Where it achieves a 20\% absolute increase in success rate over a recurrent end-to-end agent on a point to point navigation task in maps of size 1km$\times$1km. An overview video is available here: 
+  </div>
+  <br>
+
+  <br>
+  <hr>
+  <center>
+    <h1>Overview</h1>
+  </center>
+  <table align=center width=300px>
+    <tr>
+      <td align=center width=300px>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/H0WAHvEeVyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <hr>
+  <p> </p>
+
+
+  <!--       <center><h2>Project Video</h2></center> -->
+
+
+  <table align=center width=800px>
+    <tr>
+      <td width=800px>
+        <left>
+          <center>
+            <h1>Acknowledgements</h1>
+          </center>
+          This work was funded by grant Deepvision (ANR-15-CE23-0029, STPGP479356-15), a joint French/Canadian call by
+          ANR \& NSERC and this work was supported by Mitacs through the Mitacs Accelerate program. 
+          <br>
+          Website template from <a href="https://richzhang.github.io/colorization">here</a> and <a
+            href="https://pathak22.github.io/modular-assemblies/">here</a>. <br>
+        </left>
+      </td>
+    </tr>
+  </table>
+  <br><br>
+  <script xml:space="preserve" language="JavaScript">
+    hideallbibs();
+  </script>
+</body>
+
+</html>
