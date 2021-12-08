@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+
+<div class="container" ng-app="SecretSanta" ng-controller="secretController">
+    <div class="santa-container">
+        <santa></santa>
+    </div>
+    <h1 class="title">Secret Santa</h1>
+    <input ng-model="secretCode" placeholder="Your santa code" />
+    <div class="actions">
+        <button ng-click="generateMatches()">Who Gets My Gift?</button>
+        <p ng-if="result">You are "{{ username }}" and your gift goes to <b>"{{ result }}"</b>!</p>
+        <p ng-if="error">Hey are you trying to be a dick? Use the correct code and don't try to pretend you're someone
+            else!</p>
+    </div>
+</div>
+
+</html>
